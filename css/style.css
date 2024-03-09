@@ -135,9 +135,17 @@ main {
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  background: linear-gradient(rgba(46, 47, 66, 0.4) 0%, rgba(46, 47, 66, 0.7)); 
-  background: ("../images/people-office.png"); #2E2F42; 
+  align-items: center;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.4) 0%, rgba(46, 47, 66, 0.7));
+  background-image: url("../images/people-office 1.png"); #2E2F42; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section { 
+  background-color: linear-gradient(rgba(46, 47, 66, 0.4) 0%, rgba(46, 47, 66, 0.7));
+
 }
 
 .hero-title {
@@ -190,20 +198,32 @@ ul {
 
 .container-section ul {
   display: flex;
-  gap: 22px;
-  
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-section1 {
+  width: 1200x;
+  height: 224px;
+  top: 792px;
+  left: 156px;
+  justify-content: center;
 }
 
 .icon {
   width: 264px;
   height: 112px;
   border-radius: 4px;
-  color: #f4f4fd;
+  background-color: #f4f4fd;
   align-items: center;
 }
 
 .description-title {
   font-family: "Roboto", sans-serif;
+  width: 264px;
+  height: 24px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -214,6 +234,8 @@ ul {
 
 .description-text {
   font-family: "Roboto", sans-serif;
+  width: 264px;
+  height: 72px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -239,12 +261,19 @@ ul {
 .whatarewedo-section .container {
   flex-direction: column;
   align-items: center;
-  gap: 50px;
 }
+
+.whatarewedo-section {
+  width: 1200px;
+  height: 412px;
+  top: 1136px;
+  left: 156px;
+} 
+
 
 .presentation-image {
   display: flex;
-  gap: 25px;
+  gap: 50px;
 }
 
 .whatarewedo-image {
@@ -259,7 +288,7 @@ ul {
 
 .team-members .container {
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
   align-items: center;
 }
 
@@ -273,7 +302,7 @@ ul {
 
 .our-team {
   display: flex;
-  gap: 23px;
+  gap: 20px;
 }
 
 .team-person-image {
@@ -284,7 +313,7 @@ ul {
 .icon-list {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 10px;
   margin-top:30px;
 }
 
@@ -298,7 +327,10 @@ ul {
   width: 40px;
   height: 40px;
   background: rgba(77, 90, 229, 1);
-  border-radius: 50%
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .person-name {
@@ -316,32 +348,58 @@ ul {
 }
 
 /* -- Customers -- */
-.customers {
-  background: #f4f4fd;
+.customers-section .container{
   width: 1200px;
   height: 200px;
   top: 2568px;
   left: 156px;
+  color: #2E2F42;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
 }
+
+.customers-logo { 
+  width: 104px;
+  height: 56px;
+  top: 16px;
+  left: 32px;
+  padding: 9px, 9px, 6px, 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  
+}
+
+
 
 .customers-title {
   width: 183px;
   height: 40px;
   top: 2568px;
   left: 629px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.02em;
-  text-align: center;
+  align-items: center;
+}
+
+.customers-logo .client{ 
+  stroke: #8E8F99;
+  stroke-width:"4";
+  width: 168px;
+  height: 88px;
+
 }
 
 .customers-title {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 24px;
   align-items: center;
 }
 /* -- Footer Style -- */
