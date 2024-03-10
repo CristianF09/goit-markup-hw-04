@@ -137,15 +137,10 @@ main {
   flex-direction: column;
   align-items: center;
   background-image: linear-gradient(rgba(46, 47, 66, 0.4) 0%, rgba(46, 47, 66, 0.7));
-  background-image: url("../images/people-office 1.png"); #2E2F42; 
+  background: url("../images/people-office 1.png"); #2E2F42; 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.hero-section { 
-  background-color: linear-gradient(rgba(46, 47, 66, 0.4) 0%, rgba(46, 47, 66, 0.7));
-
 }
 
 .hero-title {
@@ -176,7 +171,6 @@ ul {
 .button-service {
   font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
-  border-radius: 4px;
   color: var(--link-color);
   width: 169px;
   height: 56px;
@@ -188,6 +182,8 @@ ul {
   position: relative;
   right: 450px;
   top: 300px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button-service:hover {
@@ -199,12 +195,12 @@ ul {
 .container-section ul {
   display: flex;
   gap: 24px;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
-.container-section1 {
+.container .section1 {
   width: 1200x;
   height: 224px;
   top: 792px;
@@ -242,6 +238,9 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin-top: 10px;
+  display:flex;
+  justify-content: center;
 }
 
 /* -- Section 2 -- What are we do --*/
@@ -288,7 +287,7 @@ ul {
 
 .team-members .container {
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
   align-items: center;
 }
 
@@ -308,6 +307,7 @@ ul {
 .team-person-image {
   width: 264px;
   height: 260px;
+  margin-bottom: 30px;
 }
 
 .icon-list {
@@ -370,9 +370,7 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  
 }
-
 
 
 .customers-title {
@@ -393,7 +391,6 @@ ul {
   stroke-width:"4";
   width: 168px;
   height: 88px;
-
 }
 
 .customers-title {
@@ -417,8 +414,8 @@ ul {
   top: 100px;
 }
 
-.footer-logo {
-  color: var(--link-color);
+.studio span {
+  color: #ffffff;
   width: 115px;
   height: 24px;
 }
@@ -436,4 +433,10 @@ ul {
 
 .footer-title {
   flex-direction: column;
+}
+
+.footer-social-media {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
 }

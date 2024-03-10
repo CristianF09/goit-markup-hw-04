@@ -138,6 +138,7 @@ main {
   position: relative;
   left: 400px;
   top: 0px;
+  gap: 24px;
 }
 
 .main-links-menu {
@@ -147,6 +148,10 @@ main {
   left: 427px;
 }
 
+.main-links .button-active {
+  color: aqua;
+}
+
 ul {
   list-style-type: none;
 }
@@ -154,6 +159,11 @@ ul {
 a:link,
 a:visited {
   display: block;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--logo-and-hover-color);
 }
 
 .button-all {
@@ -168,52 +178,56 @@ a:visited {
   cursor: pointer;
 }
 
-.button-webstile {
-  background-color: #404bbf;
+.button-website {
+  background-color: var(--link-color);
   border-radius: 4px;
-  color: var(--link-color);
+  color: #404bbf;
   width: 116px;
   height: 48px;
   padding: 12px, 24px, 12px, 24px;
   border: 1px;
   text-align: center;
   cursor: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
 .button-app {
-  background-color: #404bbf;
+  background-color: var(--link-color);
   border-radius: 4px;
-  color: var(--link-color);
+  color: #404bbf;
   width: 78px;
   height: 48px;
   padding: 12px, 24px, 12px, 24px;
   border: 1px;
   text-align: center;
   cursor: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
 .button-designe {
-  background-color: #404bbf;
+  background-color: var(--link-color);
   border-radius: 4px;
-  color: var(--link-color);
+  color: #404bbf;
   width: 101px;
   height: 48px;
   padding: 12px, 24px, 12px, 24px;
   border: 1px;
   text-align: center;
   cursor: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
 .button-marketing {
-  background-color: #404bbf;
+  background-color: var(--link-color);
   border-radius: 4px;
-  color: var(--link-color);
+  color: #404bbf;
   width: 126px;
   height: 48px;
   padding: 12px, 24px, 12px, 24px;
   border: 1px;
   text-align: center;
   cursor: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
 /* -- Project1 --*/
@@ -243,36 +257,39 @@ a:visited {
 }
 
 .project1-cards1 {
-  color: var(--link-color);
+  color: var(--link-color_hover);
   width: 360px;
   height: 420px;
   top: 288px;
   left: 156px;
   padding: 0px, 0px, 32px, 0px;
   border: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
 .project1-cards2 {
-  color: var(--link-color);
+  color: var(--link-color_hover);
   width: 360px;
   height: 420px;
   top: 288px;
   left: 540px;
   padding: 0px, 0px, 32px, 0px;
   border: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
 .project1-cards3 {
-  color: var(--link-color);
+  color: var(--link-color_hover);
   width: 360px;
   height: 420px;
   top: 288px;
   left: 924px;
   padding: 0px, 0px, 32px, 0px;
   border: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
-.poject1-title1-1 {
+.poject1-titles1-1 {
   width: 290px;
   height: 24px;
   font-size: 20px;
@@ -293,7 +310,7 @@ a:visited {
 .poject1-title1-2 {
   width: 172px;
   height: 24px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -353,27 +370,29 @@ a:visited {
 }
 
 .project2-cards1 {
-  color: var(--link-color);
+  color: var(--link-color_hover);
   width: 360px;
   height: 420px;
   top: 756px;
   left: 156px;
   padding: 0px, 0px, 32px, 0px;
   border: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
 .project2-cards2 {
-  color: var(--link-color);
+  color: var(--link-color_hover);
   width: 360px;
   height: 420px;
   top: 756px;
   left: 540px;
   padding: 0px, 0px, 32px, 0px;
   border: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
 .project2-cards3 {
-  color: var(--link-color);
+  color: var(--link-color_hover);
   width: 360px;
   height: 420px;
   top: 756px;
@@ -403,7 +422,7 @@ a:visited {
 .poject2-title2-2 {
   width: 181px;
   height: 24px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -463,33 +482,36 @@ a:visited {
 }
 
 .project3-cards1 {
-  color: var(--link-color);
+  color: var(--link-color_hover);
   width: 360px;
   height: 420px;
   top: 1224px;
   left: 156px;
   padding: 0px, 0px, 32px, 0px;
   border: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
 .project3-cards2 {
-  color: var(--link-color);
+  color: var(--link-color_hover);
   width: 360px;
   height: 420px;
   top: 1224x;
   left: 540px;
   padding: 0px, 0px, 32px, 0px;
   border: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
 .project3-cards3 {
-  color: var(--link-color);
+  color: var(--link-color_hover);
   width: 360px;
   height: 420px;
   top: 1224px;
   left: 924px;
   padding: 0px, 0px, 32px, 0px;
   border: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
 .poject3-title3-1 {
@@ -501,7 +523,7 @@ a:visited {
   letter-spacing: 0.02em;
 }
 
-.poject1-subtitle2-1 {
+.poject1-subtitle3-1 {
   width: 51px;
   height: 24px;
   font-size: 16px;
@@ -561,8 +583,8 @@ a:visited {
   top: 100px;
 }
 
-.footer-logo {
-  color: var(--link-color);
+.studio span {
+  color: #ffffff;
   width: 115px;
   height: 24px;
 }
@@ -580,4 +602,10 @@ a:visited {
 
 .footer-title {
   flex-direction: column;
+}
+
+.footer-social-media {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
 }
