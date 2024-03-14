@@ -61,7 +61,7 @@ main {
   top: 0px;
 }
 
-.logo-header {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -71,7 +71,7 @@ main {
   color: var(--logo-and-hover-color);
 }
 
-span {
+.logo-header {
   color: #2E2F42;
   font-size: 21;
 }
@@ -265,8 +265,8 @@ ul {
 
 .whatarewedo-section {
   width: 1200px;
-  height: 412px;
-  top: 1136px;
+  height: 224px;
+  top: 792px;
   left: 156px;
 } 
 
@@ -408,22 +408,28 @@ ul {
 
 .global-footer {
   background-color: var(--link-color_hover);
+  padding-top: 112x;
+  padding-bottom: 164px;
+  /*
   margin: auto;
+  */
 }
 
 .global-footer .container {
   flex-direction: column;
   position: relative;
+  left: 20px;
+  top: 100px;
 }
 
 
-.logo-footer{ 
+.logo{ 
   color: #4D5AE5;
   font-size: 21;
 
 }
 
- span {
+ .logo-footer {
   color: #ffffff;
   width: 115px;
   height: 24px;
@@ -450,4 +456,17 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 16px;
+}
+
+.social-media-title {
+  width: 96px;
+  height: 24px;
+  top: 2988px;
+  left: 540px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
