@@ -13,7 +13,8 @@
 
 ::after,
 ::before {
-  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
@@ -136,13 +137,12 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.4) 0%, rgba(46, 47, 66, 0.7));
-  background: url("../images/people-office 1.png"); #2E2F42; 
+  background-image: linear-gradient(rgba(46, 47, 66, 0.4) , rgba(46, 47, 66, 0.7)), url("../images/people-office 1.png"); #2E2F42; 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-
+ 
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -198,6 +198,7 @@ ul {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  padding: ;
 }
 
 .container .section1 {
@@ -225,7 +226,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
+  text-align: left;
 }
 
 .description-text {
@@ -237,10 +238,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
+  text-align: left;
   margin-top: 10px;
   display:flex;
-  justify-content: center;
 }
 
 /* -- Section 2 -- What are we do --*/
@@ -273,6 +273,8 @@ ul {
 .presentation-image {
   display: flex;
   gap: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .whatarewedo-image {
@@ -314,7 +316,7 @@ ul {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-top:30px;
+  margin-top:20px;
 }
 
 .icon-list .icon svg {
@@ -391,6 +393,7 @@ ul {
   stroke-width:"4";
   width: 168px;
   height: 88px;
+  border: solid #8e8f99;
 }
 
 .customers-title {
@@ -399,22 +402,20 @@ ul {
   gap: 24px;
   align-items: center;
 }
+
 /* -- Footer Style -- */
 
 .global-footer {
   background-color: var(--link-color_hover);
-  padding-top: 112x;
-  padding-bottom: 264px;
+  margin: auto;
 }
 
 .global-footer .container {
   flex-direction: column;
   position: relative;
-  left: 20px;
-  top: 100px;
 }
 
-.studio span {
+.logostudio span{
   color: #ffffff;
   width: 115px;
   height: 24px;
@@ -428,7 +429,7 @@ ul {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  height: 64px;
+  height: 72px;
 }
 
 .footer-title {
@@ -439,4 +440,6 @@ ul {
   color: #ffffff;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
